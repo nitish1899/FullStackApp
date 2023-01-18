@@ -5,7 +5,8 @@ const bodyParser = require('body-parser');
 const errorController = require('./controllers/error');
 
 const sequelize = require('./util/database');
-const User = require('./models/user');
+//const User = require('./models/user');
+const Expense = require('./models/expenses');
 
 var cors = require('cors');
 const app = express();
