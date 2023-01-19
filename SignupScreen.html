@@ -42,7 +42,7 @@
 
               const Post = async () => {
                   try{  
-                  const response = await axios.post("https://crudcrud.com/api/edd444a1fb8a40bdb27d993fcbe98dd2/add-user",myObj);
+                  const response = await axios.post("http://localhost:3000/user/add-user",myObj);
                   console.log(response);
                   }
                   catch(err) {
